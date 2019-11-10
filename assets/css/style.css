@@ -24,7 +24,7 @@ body, html{
   
   .img1{
     background-image:url("../images/grayscalephoto.jpg");
-    min-height:100%;
+    min-height:1000px;
   }
   
   .img2{
@@ -43,13 +43,13 @@ body, html{
   }
   
   .section-light{
-    background-color:#f4f4f4;
-    color:#666;
+    background-color:#4d1d1d;
+    color:rgb(72, 144, 167);
   }
   
   .section-dark{
     background-color:#282e34;
-    color:#ddd;
+    color:rgb(72, 144, 167);
   }
   
   .ptext{
@@ -59,7 +59,7 @@ body, html{
     text-align:center;
     color:#000;
     font-size:27px;
-    letter-spacing:8px;
+    letter-spacing:6px;
     text-transform:uppercase;
   }
   
@@ -72,10 +72,19 @@ body, html{
   .ptext .border.trans{
     background-color:transparent;
   }
+  p{
+   font-size: 24px; 
+  }
+  .card{
+    padding:10px;
+  }
+  h4{
+    font-size: 30px;
+  }
   
   @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll;
     }
   }
-  
+ 
